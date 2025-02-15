@@ -1,0 +1,92 @@
+|counter_with_features
+clk => clk.IN1
+reset => Mux0.IN8
+reset => Mux1.IN8
+reset => Mux2.IN8
+reset => Mux3.IN8
+load => Mux0.IN10
+load => Mux1.IN10
+load => Mux2.IN10
+load => Mux3.IN10
+loadData[0] => Mux3.IN4
+loadData[0] => Mux3.IN5
+loadData[0] => Mux3.IN6
+loadData[0] => Mux3.IN7
+loadData[1] => Mux2.IN4
+loadData[1] => Mux2.IN5
+loadData[1] => Mux2.IN6
+loadData[1] => Mux2.IN7
+loadData[2] => Mux1.IN4
+loadData[2] => Mux1.IN5
+loadData[2] => Mux1.IN6
+loadData[2] => Mux1.IN7
+loadData[3] => Mux0.IN4
+loadData[3] => Mux0.IN5
+loadData[3] => Mux0.IN6
+loadData[3] => Mux0.IN7
+upDown => Mux0.IN9
+upDown => Mux1.IN9
+upDown => Mux2.IN9
+upDown => Mux3.IN9
+toDisp1[0] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[1] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[2] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[3] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[4] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[5] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[6] <= hexSevenSegmentDecoder:display1.port1
+toDisp1[7] <= hexSevenSegmentDecoder:display1.port1
+counter[0] <= counter[0].DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= counter[1].DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= counter[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter_with_features|clockDiv:divideC
+clk => clk1~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk => counter[26].CLK
+clk => counter[27].CLK
+clk1 <= clk1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter_with_features|hexSevenSegmentDecoder:display1
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= <VCC>
+
+

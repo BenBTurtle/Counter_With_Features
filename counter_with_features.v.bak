@@ -1,0 +1,9 @@
+counter_with_features(input clock,
+input reset,
+input load,
+input upDown,
+output out);
+
+
+
+endmodule

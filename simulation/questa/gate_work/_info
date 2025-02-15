@@ -1,0 +1,88 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Benjamin Betancourt/Desktop/Comp Eng Design Lab 2/Activity 4/simulation/questa
+T_opt
+!s110 1739416084
+V3]8:N92SVPklIHzZAma113
+Z2 04 10 4 work hard_block fast 0
+=1-9c6b0004a85d-67ad6213-37d-938
+R0
+Z3 !s12b OEM100
+Z4 !s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2023.3;77
+R1
+T_opt1
+!s110 1739416097
+V5D8_aCdJH_[2k3eB@5SLY0
+R2
+=1-9c6b0004a85d-67ad6220-31d-3634
+R0
+R3
+R4
+o-quiet -auto_acc_if_foreign -work work +acc
+R5
+n@_opt1
+R6
+vcounter_with_features
+Z7 2counter_with_features.vo
+Z8 !s110 1739416071
+!i10b 1
+!s100 P^h_99ecMHh6bUP]1lWKX0
+I6mZ?andh4i?b3AIlZj=RA1
+R1
+Z9 w1739416047
+Z10 8counter_with_features.vo
+Z11 Fcounter_with_features.vo
+!i122 0
+L0 32 894
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z14 !s108 1739416071.000000
+Z15 !s107 counter_with_features.vo|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|counter_with_features.vo|
+!i113 0
+Z17 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z18 !s92 -vlog01compat -work work +incdir+. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vhard_block
+R7
+R8
+!i10b 1
+!s100 Tb]YlaS4S^R<_WKiWic5E1
+Icg;oRld_nVn4ebS]zMZC42
+R1
+R9
+R10
+R11
+!i122 0
+L0 927 45
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R18
+R5
