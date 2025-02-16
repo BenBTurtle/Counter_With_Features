@@ -48,10 +48,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "load",
-					"strict" : false
-				},
-				{
 					"name" : "upDown",
 					"strict" : false
 				},
@@ -64,6 +60,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "load",
+					"strict" : false
+				},
+				{
 					"name" : "loadData[1]",
 					"strict" : false
 				},
@@ -73,6 +73,18 @@
 				},
 				{
 					"name" : "loadData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clkSel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clkSel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
 					"strict" : false
 				}
 			]

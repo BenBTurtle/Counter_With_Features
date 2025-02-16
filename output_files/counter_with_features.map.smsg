@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at clockDiv.v(19): always construct contains both blocking and non-blocking assignments File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v Line: 19

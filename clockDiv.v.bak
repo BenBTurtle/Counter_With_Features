@@ -1,0 +1,7 @@
+module clockDiv(input clk,
+output sec1,
+output sec2,
+output secHalf);
+
+endmodule
+

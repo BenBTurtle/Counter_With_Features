@@ -3,6 +3,7 @@ input reset, //button
 input load, //button
 input [3:0] loadData, 
 input upDown, //switch
+input [1:0] clkSel, //two switches
 output [7:0] toDisp1, 
 output reg [3:0] counter);
 
@@ -14,9 +15,10 @@ initial begin
 	counter = 0;
 end
 
-clockDiv divideC(clk, clkD);
+wire clkRed;
+clockDivide divideC(clk, clkSel, clkRed);
 
-always @(posedge clkD or posedge reset or posedge load or posedge upDown) begin
+always @(posedge clkRed) begin
 	case (cond)
 		3'b101 : counter = (counter == max)? zero : counter+1; //base counter increase with checker for overflow
 		3'b100 : counter = loadData; //load input
@@ -26,8 +28,8 @@ always @(posedge clkD or posedge reset or posedge load or posedge upDown) begin
 		3'b000 : counter = loadData; //priortising the load input rather than the reset input (both buttons pressed)
 		3'b011 : counter = max; //a reset in reverse is the max input, CHANGE IF PROFESSOR DOESNT AGREE!!!!
 		3'b010 : counter = loadData; //loadData once again priortised as the other two functions will happen next clock cycle
-		default : counter = debug;
-		//default: counter = counter+1; //default case of increment as this is the most basic function
+		//default : counter = debug;
+		default: counter = counter+1; //default case of increment as this is the most basic function
 	endcase
 	
 

@@ -59,7 +59,7 @@ set_global_assignment -name VERILOG_FILE hexSevenSegmentDecoder.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_location_assignment PIN_N5 -to clk
+set_location_assignment PIN_P11 -to clk
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
 set_location_assignment PIN_A7 -to load
 set_location_assignment PIN_B8 -to reset
@@ -92,4 +92,17 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to toDisp1[2]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to toDisp1[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to toDisp1[0]
 set_global_assignment -name VERILOG_FILE output_files/clockDiv.v
+set_global_assignment -name VERILOG_FILE clockDiv.v
+set_location_assignment PIN_B12 -to clkSel[0]
+set_location_assignment PIN_A13 -to clkSel[1]
+set_location_assignment PIN_A8 -to counter[0]
+set_location_assignment PIN_A9 -to counter[1]
+set_location_assignment PIN_A10 -to counter[2]
+set_location_assignment PIN_B10 -to counter[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clkSel[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clkSel[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to counter[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to counter[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to counter[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to counter[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

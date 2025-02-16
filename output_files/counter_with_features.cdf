@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M50DAF484) Path("C:/Users/benbt/Desktop/Comp eng lab 2/Lab Mats/Activity 4/output_files/") File("counter_with_features.sof") MfrSpec(OpMask(1));
+		Device PartName(10M50DAF484) Path("C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/output_files/") File("counter_with_features.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
