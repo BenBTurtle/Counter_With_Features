@@ -28,6 +28,31 @@ end
 endmodule
 
 
+`timescale 1s/1ns
+
+module clockDivide_TB();
+reg clk;
+reg [1:0] clkSel;
+wire divClk;
+
+always begin
+	#0.000000020; clk = ~clk;//50Mhz clock
+end
+
+//initilise variables
+initial begin
+	clk = 0; clkSel = 2'b00; #2; //0.5sec for 2 sec
+	clkSel = 2'b01; #2; //1 sec for 2 sec
+	clkSel = 2'b10; #2; //2 sec for 2 sec
+	$stop; //breakpoint for simulation
+end
+
+
+clockDivide DUT(clk, clkSel, divClk);
+
+endmodule
+
+
 //depreciated approach that I refuse to delete
 /*
 module clockDivide(input clk, output sec1, output sec2, output secHalf);

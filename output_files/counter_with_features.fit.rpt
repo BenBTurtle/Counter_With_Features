@@ -1,5 +1,5 @@
 Fitter report for counter_with_features
-Sat Feb 15 23:04:54 2025
+Sun Feb 16 20:46:27 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Sat Feb 15 23:04:54 2025          ;
+; Fitter Status                      ; Successful - Sun Feb 16 20:46:27 2025          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; counter_with_features                          ;
 ; Top-level Entity Name              ; counter_with_features                          ;
@@ -1356,7 +1356,7 @@ Note: This table only shows the top 31 path(s) that have the largest delay added
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 32 processors detected
 Info (119006): Selected device 10M50DAF484C7G for design "counter_with_features"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -1417,12 +1417,12 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.16 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.18 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (169177): 10 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin upDown uses I/O standard 3.3-V LVTTL at F15 File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 5
     Info (169178): Pin reset uses I/O standard 3.3 V Schmitt Trigger at B8 File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 2
@@ -1436,10 +1436,10 @@ Warning (169177): 10 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 
     Info (169178): Pin clk uses I/O standard 3.3-V LVTTL at P11 File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 1
 Info (144001): Generated suppressed messages file C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/output_files/counter_with_features.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6592 megabytes
-    Info: Processing ended: Sat Feb 15 23:04:54 2025
+    Info: Peak virtual memory: 6596 megabytes
+    Info: Processing ended: Sun Feb 16 20:46:27 2025
     Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +----------------------------+

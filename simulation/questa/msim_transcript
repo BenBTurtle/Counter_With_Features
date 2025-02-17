@@ -26,52 +26,51 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Benjamin\ Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4 {C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 16:55:25 on Feb 15,2025
+# Start time: 19:50:49 on Feb 16,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4" C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v 
 # -- Compiling module counter_with_features
 # -- Compiling module counter_with_features_TB
 # 
 # Top level modules:
 # 	counter_with_features_TB
-# End time: 16:55:25 on Feb 15,2025, Elapsed time: 0:00:00
+# End time: 19:50:49 on Feb 16,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Benjamin\ Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4 {C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/hexSevenSegmentDecoder.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 16:55:25 on Feb 15,2025
+# Start time: 19:50:50 on Feb 16,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4" C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/hexSevenSegmentDecoder.v 
 # -- Compiling module hexSevenSegmentDecoder
 # 
 # Top level modules:
 # 	hexSevenSegmentDecoder
-# End time: 16:55:25 on Feb 15,2025, Elapsed time: 0:00:00
+# End time: 19:50:50 on Feb 16,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Benjamin\ Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4 {C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 16:55:26 on Feb 15,2025
+# Start time: 19:50:50 on Feb 16,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4" C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v 
 # -- Compiling module clockDivide
-# -- Compiling module dFF
-# -- Compiling module clockDivider_TB
+# -- Compiling module clockDivide_TB
 # 
 # Top level modules:
-# 	clockDivider_TB
-# End time: 16:55:26 on Feb 15,2025, Elapsed time: 0:00:00
+# 	clockDivide_TB
+# End time: 19:50:50 on Feb 16,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim -voptargs=+acc work.clockDivider_TB
-# vsim -voptargs="+acc" work.clockDivider_TB 
-# Start time: 16:55:32 on Feb 15,2025
+vsim -voptargs=+acc work.clockDivide_TB
+# vsim -voptargs="+acc" work.clockDivide_TB 
+# Start time: 19:51:56 on Feb 16,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.clockDivider_TB(fast)
+# Loading work.clockDivide_TB(fast)
 # Loading work.clockDivide(fast)
-# Loading work.dFF(fast)
-add wave -position end  sim:/clockDivider_TB/clk
-add wave -position end  sim:/clockDivider_TB/sec1
-add wave -position end  sim:/clockDivider_TB/sec2
-add wave -position end  sim:/clockDivider_TB/secHalf
+add wave -position end  sim:/clockDivide_TB/clk
+add wave -position end  sim:/clockDivide_TB/clkSel
+add wave -position end  sim:/clockDivide_TB/divClk
 run -all
-# Break key hit
-# End time: 16:56:12 on Feb 15,2025, Elapsed time: 0:00:40
+# ** Note: $stop    : C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v(47)
+#    Time: 6 sec  Iteration: 0  Instance: /clockDivide_TB
+# Break in Module clockDivide_TB at C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v line 47
+# End time: 20:25:37 on Feb 16,2025, Elapsed time: 0:33:41
 # Errors: 0, Warnings: 1

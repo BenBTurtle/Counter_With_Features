@@ -1,5 +1,5 @@
 Analysis & Synthesis report for counter_with_features
-Sat Feb 15 23:04:48 2025
+Sun Feb 16 20:46:21 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -45,7 +45,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Feb 15 23:04:48 2025          ;
+; Analysis & Synthesis Status        ; Successful - Sun Feb 16 20:46:21 2025          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; counter_with_features                          ;
 ; Top-level Entity Name              ; counter_with_features                          ;
@@ -287,28 +287,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
-    Info: Processing started: Sat Feb 15 23:04:44 2025
+    Info: Processing started: Sun Feb 16 20:46:16 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off counter_with_features -c counter_with_features
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 32 processors detected
 Info (12021): Found 2 design units, including 2 entities, in source file counter_with_features.v
     Info (12023): Found entity 1: counter_with_features File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 1
-    Info (12023): Found entity 2: counter_with_features_TB File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 45
+    Info (12023): Found entity 2: counter_with_features_TB File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 44
 Info (12021): Found 1 design units, including 1 entities, in source file hexsevensegmentdecoder.v
     Info (12023): Found entity 1: hexSevenSegmentDecoder File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/hexSevenSegmentDecoder.v Line: 1
 Warning (10090): Verilog HDL syntax warning at clockDiv.v(39): extra block comment delimiter characters /* within block comment File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/output_files/clockDiv.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/clockdiv.v
     Info (12023): Found entity 1: clockDiv File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/output_files/clockDiv.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file clockdiv.v
+Info (12021): Found 2 design units, including 2 entities, in source file clockdiv.v
     Info (12023): Found entity 1: clockDivide File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v Line: 1
+    Info (12023): Found entity 2: clockDivide_TB File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v Line: 33
 Info (12127): Elaborating entity "counter_with_features" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at counter_with_features.v(11): object "debug" assigned a value but never read File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 11
-Warning (10230): Verilog HDL assignment warning at counter_with_features.v(23): truncated value with size 32 to match size of target (4) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 23
-Warning (10230): Verilog HDL assignment warning at counter_with_features.v(25): truncated value with size 32 to match size of target (4) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 25
-Warning (10230): Verilog HDL assignment warning at counter_with_features.v(32): truncated value with size 32 to match size of target (4) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 32
-Info (12128): Elaborating entity "clockDivide" for hierarchy "clockDivide:divideC" File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 19
+Warning (10036): Verilog HDL or VHDL warning at counter_with_features.v(10): object "debug" assigned a value but never read File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 10
+Warning (10230): Verilog HDL assignment warning at counter_with_features.v(22): truncated value with size 32 to match size of target (4) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 22
+Warning (10230): Verilog HDL assignment warning at counter_with_features.v(24): truncated value with size 32 to match size of target (4) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 24
+Warning (10230): Verilog HDL assignment warning at counter_with_features.v(31): truncated value with size 32 to match size of target (4) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 31
+Info (12128): Elaborating entity "clockDivide" for hierarchy "clockDivide:divideC" File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 18
 Warning (10230): Verilog HDL assignment warning at clockDiv.v(20): truncated value with size 32 to match size of target (28) File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v Line: 20
-Info (12128): Elaborating entity "hexSevenSegmentDecoder" for hierarchy "hexSevenSegmentDecoder:display1" File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 38
+Info (12128): Elaborating entity "hexSevenSegmentDecoder" for hierarchy "hexSevenSegmentDecoder:display1" File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 37
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "toDisp1[7]" is stuck at VCC File: C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v Line: 7
 Info (286030): Timing-Driven Synthesis is running
@@ -320,10 +321,10 @@ Info (21057): Implemented 83 device resources after synthesis - the final resour
     Info (21059): Implemented 12 output pins
     Info (21061): Implemented 61 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4833 megabytes
-    Info: Processing ended: Sat Feb 15 23:04:48 2025
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 4834 megabytes
+    Info: Processing ended: Sun Feb 16 20:46:21 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:11
 
 
 +------------------------------------------+

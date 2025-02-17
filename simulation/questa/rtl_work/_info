@@ -12,35 +12,35 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 dC:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/simulation/questa
 T_opt
-!s110 1739656533
-VWghgoBK;k=`kR;E`<nCK60
-04 15 4 work clockDivider_TB fast 0
-=1-9c6b0004a85d-67b10d55-117-31f4
+!s110 1739753517
+VabEXTVZJ7@aa`Po88nTF<2
+04 14 4 work clockDivide_TB fast 0
+=1-9c6b0004a85d-67b2882d-20-4a08
 R0
 !s12b OEM100
-!s124 OEM10U26 
+!s124 OEM10U2 
 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 OL;O;2023.3;77
 vclockDivide
 Z3 2C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v
-Z4 !s110 1739656526
+Z4 !s110 1739753450
 !i10b 1
-!s100 =3PhoAF]]?d2j`G6XzzBk2
-ITmBFTJ^^7Y0bB5PbazOT_1
+!s100 5FbT0Z`V8fc6j@_2cz]5X0
+IfQcT[C_7J=bb6R@Y=9]fl3
 R1
-Z5 w1739656316
+Z5 w1739746052
 Z6 8C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v
 Z7 FC:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v
 !i122 2
-L0 1 19
+L0 1 28
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z10 !s108 1739656526.000000
+Z10 !s108 1739753450.000000
 Z11 !s107 C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v|
 Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4|C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/clockDiv.v|
 !i113 0
@@ -48,18 +48,18 @@ Z13 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF 
 Z14 !s92 -vlog01compat -work work {+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 nclock@divide
-vclockDivider_TB
+vclockDivide_TB
 R3
 R4
 !i10b 1
-!s100 X>^G<f2R92:Y8?I=ja7z71
-IB_=kE0:=`P[>a>5MaE]n=1
+!s100 aBZ^;<zYaXBm^1eKbY5lo1
+IhDd8nK_3L?N9^OzTO[YUE0
 R1
 R5
 R6
 R7
 !i122 2
-L0 37 15
+L0 33 24
 R8
 R9
 r1
@@ -72,15 +72,15 @@ R12
 R13
 R14
 R2
-nclock@divider_@t@b
+nclock@divide_@t@b
 vcounter_with_features
 Z15 2C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v
-Z16 !s110 1739656525
+Z16 !s110 1739753449
 !i10b 1
-!s100 :n=z02?Dk01_JbQ<L_64D2
-I]n90HL<UzPVd8FRi`G2U>3
+!s100 dD;J7nHF7MY2Ye_dT8:MD2
+IOFRnP8M_e3lCl:`gVFk8K1
 R1
-Z17 w1739656452
+Z17 w1739752962
 Z18 8C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v
 Z19 FC:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v
 !i122 0
@@ -90,7 +90,7 @@ R9
 r1
 !s85 0
 31
-Z20 !s108 1739656525.000000
+Z20 !s108 1739753449.000000
 Z21 !s107 C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v|
 Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4|C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/counter_with_features.v|
 !i113 0
@@ -101,14 +101,14 @@ vcounter_with_features_TB
 R15
 R16
 !i10b 1
-!s100 08@CYJMgL;REAR_RA@GCN3
-InhWKOYPJQz<E;AH3]Zh=:1
+!s100 YFAk<`50l0OF2VUZQTPOH3
+InK]lF?85CLB?^_;`Whd6_2
 R1
 R17
 R18
 R19
 !i122 0
-L0 44 39
+L0 44 32
 R8
 R9
 r1
@@ -122,34 +122,9 @@ R13
 R14
 R2
 ncounter_with_features_@t@b
-vdFF
-R3
-R4
-!i10b 1
-!s100 4mcRfm[nWB:mYCPMNEECP2
-I0nd[eVXZfF>1jl0l?4Kd_1
-R1
-R5
-R6
-R7
-!i122 2
-L0 24 9
-R8
-R9
-r1
-!s85 0
-31
-R10
-R11
-R12
-!i113 0
-R13
-R14
-R2
-nd@f@f
 vhexSevenSegmentDecoder
 2C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/hexSevenSegmentDecoder.v
-R16
+R4
 !i10b 1
 !s100 =EKj?dQS?@zAc0_kBU5jg3
 IeS^Ta1P<j2^?i99`>NefE3
@@ -164,7 +139,7 @@ R9
 r1
 !s85 0
 31
-R20
+R10
 !s107 C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/hexSevenSegmentDecoder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4|C:/Users/Benjamin Betancourt/Desktop/Comp_Eng_Design_Lab_2/Activity_4/hexSevenSegmentDecoder.v|
 !i113 0
